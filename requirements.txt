@@ -1,0 +1,31 @@
+# Pixeltable and core dependencies
+pixeltable
+openai
+python-dotenv
+
+# Web interface
+streamlit
+plotly
+graphviz
+
+# Jupyter notebook
+jupyter
+ipykernel
+ipywidgets
+
+# Image processing
+Pillow
+
+# Document processing
+PyPDF2
+spacy
+# Note: After installing spacy, run: python -m spacy download en_core_web_sm
+
+# ML models (optional, Pixeltable will download as needed)
+sentence-transformers
+transformers
+torch
+
+# Additional utilities
+pandas
+numpy
