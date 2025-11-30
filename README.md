@@ -2,7 +2,7 @@
 
 A comprehensive demonstration of **Pixeltable** - the unified framework for multimodal AI applications.
 
-![Pixeltable Architecture](https://raw.githubusercontent.com/pixeltable/pixeltable/main/docs/source/data/pixeltable-overview.png)
+![Architecture](diagrams/architecture.png)
 
 ## What is Pixeltable?
 
