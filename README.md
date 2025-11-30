@@ -1,20 +1,20 @@
-# 🎯 Pixeltable Multimodal Demo
+# Pixeltable Multimodal Demo
 
 A comprehensive demonstration of **Pixeltable** - the unified framework for multimodal AI applications.
 
 ![Pixeltable Architecture](https://raw.githubusercontent.com/pixeltable/pixeltable/main/docs/source/data/pixeltable-overview.png)
 
-## 🚀 What is Pixeltable?
+## What is Pixeltable?
 
 **Pixeltable** revolutionizes multimodal AI development by unifying everything into a single table-based interface:
 
-- 📄 **Documents** with automatic chunking and embedding
-- 🖼️ **Images** with vision AI analysis
-- 🎥 **Videos** with frame extraction
-- 🎵 **Audio** with transcription
-- 🤖 **LLM Integration** (OpenAI, HuggingFace)
-- 🔍 **Vector Search** built-in
-- 📊 **RAG Systems** in ~30 lines of code
+- **Documents** with automatic chunking and embedding
+- **Images** with vision AI analysis
+- **Videos** with frame extraction
+- **Audio** with transcription
+- **LLM Integration** (OpenAI, HuggingFace)
+- **Vector Search** built-in
+- **RAG Systems** in ~30 lines of code
 
 ### ❌ Traditional Approach
 - Multiple services (Pinecone, PostgreSQL, S3)
@@ -28,10 +28,10 @@ A comprehensive demonstration of **Pixeltable** - the unified framework for mult
 - ~30 lines of code
 - Built-in version control
 
-## 📦 Installation
+## Installation
 
 ### Prerequisites
-- Python 3.9+
+- Python 3.10+
 - OpenAI API key (in `.env` file)
 
 ### Quick Setup
@@ -58,14 +58,14 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## 🎮 Running the Demo
+## Running the Demo
 
 ### 1. Web Application (Streamlit)
 
 Beautiful interactive web interface with:
-- 📄 Document RAG Q&A
-- 🖼️ Image analysis with GPT-4 Vision
-- 💡 Educational content about Pixeltable
+- Document RAG Q&A
+- Image analysis with GPT-4 Vision
+- Educational content about Pixeltable
 
 ```bash
 streamlit run app.py
@@ -85,29 +85,7 @@ Step-by-step tutorial with executable examples:
 jupyter notebook pixeltable_demo.ipynb
 ```
 
-**Contents:**
-1. ✅ Setup and installation
-2. 💰 Automatic profit calculation example
-3. 🖼️ Image analysis with GPT-4 Vision
-4. 🔍 Image similarity search with CLIP
-5. 📄 Complete RAG system (30 lines!)
-6. 🔄 Incremental updates demonstration
-7. 🎨 Custom user-defined functions
-
-## 📁 Project Structure
-
-```
-pixeltable-demo/
-├── app.py                    # Streamlit web application
-├── pixeltable_demo.ipynb     # Jupyter notebook tutorial
-├── requirements.txt          # Python dependencies
-├── setup.sh                  # Setup script
-├── .env                      # API keys (not in git)
-├── README.md                 # This file
-└── project.md                # Project documentation
-```
-
-## 🎯 Key Features Demonstrated
+## Key Features Demonstrated
 
 ### 1. Automatic Computation
 ```python
@@ -147,34 +125,7 @@ qa.add_computed_column(answer=openai.chat_completions(...))
 
 **That's it! ~30 lines for a complete RAG system!**
 
-## 💡 Use Cases
-
-1. **📄 Document Q&A (RAG)**
-   - Legal document analysis
-   - Research paper exploration
-   - Knowledge base search
-
-2. **🖼️ Image Search**
-   - Product catalog search
-   - Medical image retrieval
-   - Content moderation
-
-3. **🎥 Video Analysis**
-   - Content summarization
-   - Scene detection
-   - Automated tagging
-
-4. **🤖 AI Agents**
-   - Tool call history
-   - Conversation tracking
-   - State management
-
-5. **📊 Dataset Preparation**
-   - ML dataset creation
-   - Data versioning
-   - Feature engineering
-
-## 🔑 Environment Setup
+## Environment Setup
 
 Create a `.env` file with your API keys:
 
@@ -182,20 +133,7 @@ Create a `.env` file with your API keys:
 OPENAI_API_KEY=your_openai_api_key_here
 ```
 
-## 🎓 Learning Path
-
-### For Beginners
-1. Start with the **Streamlit app** (`streamlit run app.py`)
-2. Explore the "Why Pixeltable?" section
-3. Try uploading a document and asking questions
-
-### For Developers
-1. Open the **Jupyter notebook** (`jupyter notebook pixeltable_demo.ipynb`)
-2. Execute each cell to see how Pixeltable works
-3. Modify examples with your own data
-4. Build your own multimodal application!
-
-## 🏗️ Architecture
+## Architecture
 
 ### Traditional ML Stack
 ```
@@ -223,92 +161,13 @@ Application
 └─────────────────────────────────────┘
 ```
 
-## 📊 Performance Benefits
-
-| Metric | Traditional | Pixeltable |
-|--------|-------------|------------|
-| Setup Time | Hours | Minutes |
-| Lines of Code (RAG) | 500+ | ~30 |
-| External Services | 5+ | 1 |
-| Maintenance Complexity | High | Low |
-| Version Control | Manual | Built-in |
-| Incremental Updates | Custom Code | Automatic |
-
-## 🚧 Common Issues & Solutions
-
-### Issue: OpenAI API Key Error
-```bash
-# Solution: Ensure .env file exists with correct key
-echo "OPENAI_API_KEY=your_key_here" > .env
-```
-
-### Issue: Module Not Found
-```bash
-# Solution: Activate virtual environment
-source .venv/bin/activate
-pip install -r requirements.txt
-```
-
-### Issue: Port Already in Use (Streamlit)
-```bash
-# Solution: Use different port
-streamlit run app.py --server.port 8502
-```
-
-## 📚 Resources
+## Resources
 
 - **Official Docs**: https://pixeltable.readme.io/
 - **GitHub**: https://github.com/pixeltable/pixeltable
 - **Examples**: https://github.com/pixeltable/pixeltable/tree/main/docs/tutorials
 - **Discord**: https://discord.gg/pixeltable
 
-## 🎯 Next Steps
-
-1. **Experiment**: Modify the notebook examples with your data
-2. **Build**: Create your own multimodal application
-3. **Share**: Share your Pixeltable projects!
-
-## 🤝 Contributing
-
-This is a demo project. For contributions to Pixeltable itself:
-- Visit https://github.com/pixeltable/pixeltable
-- Check their contribution guidelines
-
-## 📝 License
+## License
 
 This demo project is MIT licensed. Pixeltable itself has its own license.
-
-## 🙏 Acknowledgments
-
-- **Pixeltable Team** for creating this amazing framework
-- **OpenAI** for GPT-4 and Vision APIs
-- **HuggingFace** for open-source models
-
----
-
-## 💻 Quick Commands Reference
-
-```bash
-# Setup
-./setup.sh
-source .venv/bin/activate
-
-# Run Streamlit app
-streamlit run app.py
-
-# Run Jupyter notebook
-jupyter notebook pixeltable_demo.ipynb
-
-# Install new package
-pip install package-name
-pip freeze > requirements.txt
-
-# Deactivate virtual environment
-deactivate
-```
-
----
-
-**Built with ❤️ using Pixeltable**
-
-For questions or issues, please refer to the [Pixeltable documentation](https://pixeltable.readme.io/).
